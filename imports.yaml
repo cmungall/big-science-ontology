@@ -1,6 +1,23 @@
 "@context":
   obo: http://purl.obolibrary.org/obo/
-ontologies:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  owl: http://www.w3.org/2002/07/owl#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  dc: http://purl.org/dc/terms/
+
+  id: "@id"
+  type: "rdf:type"
+  ontology:
+    "@id" : owl:Ontology
+    "@type" : "@id"
+  imports:
+    "@id" : owl:imports
+    "@type" : "@id"
+
+id: obo:big-science
+type: owl:Ontology
+imports:
   - obo:go/extensions/go-plus.owl
   - obo:uberon/composite-metazoan.owl
   - obo:ro.owl
