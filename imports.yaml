@@ -1,5 +1,32 @@
+"@context":
+  obo: http://purl.obolibrary.org/obo/
 ontologies:
   - obo:go/extensions/go-plus.owl
-  - obo:uberon/ext.owl
+  - obo:uberon/composite-metazoan.owl
+  - obo:ro.owl
+  - obo:eco.owl
+  - obo:ncbitaxon/subsets/taxslim.owl
+  - obo:envo.owl
+  - obo:exo.owl
+  # TODO - planteome.owl
+  - obo:po.owl
+  - obo:to.owl
+  - obo:eo.owl
+  - obo:ddanat.owl
+  - obo:hao.owl
+  - obo:miro.owl
+  - obo:nbo.owl
+  - obo:oba.owl
+  - obo:pco.owl
+  - obo:trans.owl
+  # TODO - upheno
+  - obo:pato.owl
+  - obo:fypo.owl
+  - obo:fbcv/dpo.owl
+  - obo:mp.owl
+  - obo:hp.owl
+  - obo:wbphenotype.owl
+  - obo:upheno/doid/mondo.owl
+
 
   
